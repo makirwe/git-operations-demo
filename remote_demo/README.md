@@ -7,21 +7,44 @@ This repository demonstrates various Git operations using Python. It includes ex
 - Merge conflict resolution
 - Remote repository operations
 
+## Examples
+
+### 1. Branch Operations (`branch_operations.py`)
+Demonstrates Git branching workflows including:
+- Creating branches
+- Switching between branches
+- Making parallel changes
+- Merging branches
+
+### 2. Conflict Resolution (`conflict_resolution.py`)
+Shows how to handle merge conflicts:
+- Creating conflicting changes
+- Detecting conflicts during merge
+- Resolving conflicts programmatically
+
 ## Usage
 
-Run the script using Python:
+Each example can be run independently:
 
 ```bash
-python git_advanced.py
-```
+# Run branch operations demo
+python branch_operations.py
 
-The script will demonstrate various Git operations including:
-1. Creating and switching branches
-2. Making commits
-3. Resolving merge conflicts
-4. Working with remote repositories
+# Run conflict resolution demo
+python conflict_resolution.py
+```
 
 ## Requirements
 
 - Python 3.x
-- Git installed and configured 
+- Git installed and configured
+
+## Branch Structure
+
+- `master`: Main branch with stable code
+- `branch-demo`: Examples of branching operations
+- Additional feature branches for specific examples
+
+## Contributing
+
+Feel free to contribute additional examples or improvements through pull requests. 
