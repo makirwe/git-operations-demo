@@ -22,6 +22,14 @@ Shows how to handle merge conflicts:
 - Detecting conflicts during merge
 - Resolving conflicts programmatically
 
+### 3. Remote Operations (`remote_operations.py`)
+Demonstrates remote repository management:
+- Adding and managing remotes
+- Cloning repositories
+- Pushing and pulling changes
+- Tracking remote branches
+- Listing remote branches
+
 ## Usage
 
 Each example can be run independently:
@@ -32,6 +40,9 @@ python branch_operations.py
 
 # Run conflict resolution demo
 python conflict_resolution.py
+
+# Run remote operations demo
+python remote_operations.py
 ```
 
 ## Requirements
